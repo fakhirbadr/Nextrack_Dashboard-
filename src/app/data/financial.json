@@ -1,0 +1,11 @@
+{
+    "data": [
+        { "range": "< 1K", "count": 3, "previousCount": 2 },
+        { "range": "1K-5K", "count": 2, "previousCount": 3 },
+        { "range": "5K-20K", "count": 2, "previousCount": 1 },
+        { "range": "20K-50K", "count": 4, "previousCount": 3 },
+        { "range": "50K-100K", "count": 2, "previousCount": 2 },
+        { "range": ">100K", "count": 3, "previousCount": 1 }
+      ],
+      "title": "Financial Impact"
+}

@@ -1,0 +1,11 @@
+{
+  "data": {
+    "Total de la maintenance préventive": "45 660",
+    "Total de la maintenance corrective": "7 384",
+    "Total des interventions rapides": "8 132",
+    "Total des doses sauvées": "12 234 234",
+    "Total des alertes traitées": "53 293",
+    "Temps moyen de réparation": "42 min"
+  },
+  "title": "Récapitulatif  Performance"
+}

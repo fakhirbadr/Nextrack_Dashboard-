@@ -1,0 +1,58 @@
+[
+    {
+      "equipment": "Trucks",
+      "fuelBurn": "29",
+      "mttr": "13",
+      "mtbf": "34",
+      "availability": "57%",
+      "utilization": "79%"
+    },
+    {
+      "equipment": "Shovels",
+      "fuelBurn": "31",
+      "mttr": "83",
+      "mtbf": "17",
+      "availability": "55%",
+      "utilization": "33%"
+    },
+    {
+      "equipment": "Drills",
+      "fuelBurn": "24",
+      "mttr": "99",
+      "mtbf": "63",
+      "availability": "98%",
+      "utilization": "73%"
+    },
+    {
+      "equipment": "Dozers",
+      "fuelBurn": "25",
+      "mttr": "52",
+      "mtbf": "79",
+      "availability": "36%",
+      "utilization": "53%"
+    },
+    {
+      "equipment": "Loaders",
+      "fuelBurn": "27",
+      "mttr": "84",
+      "mtbf": "85",
+      "availability": "2%",
+      "utilization": "22%"
+    },
+    {
+      "equipment": "Graders",
+      "fuelBurn": "28",
+      "mttr": "4",
+      "mtbf": "55",
+      "availability": "95%",
+      "utilization": "23%"
+    },
+    {
+      "equipment": "Cranes",
+      "fuelBurn": "29",
+      "mttr": "64",
+      "mtbf": "94",
+      "availability": "4%",
+      "utilization": "44%"
+    }
+  ]

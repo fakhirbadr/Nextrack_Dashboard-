@@ -1,0 +1,18 @@
+{
+  "data": [
+    { "month": "Jan", "actual": 600 },
+    { "month": "Feb", "actual": 750 },
+    { "month": "Mar", "actual": 700 },
+    { "month": "Apr", "actual": 723 },
+    { "month": "May", "actual": 720 },
+    { "month": "Jun", "actual": 690 },
+    { "month": "Jul", "actual": 730 },
+    { "month": "Aug", "actual": 683 },
+    { "month": "Sep", "actual": 711 },
+    { "month": "Oct", "actual": 732 },
+    { "month": "Nov", "actual": 345 },
+    { "month": "Dec", "actual": 0 }
+  ],
+  "budget": 9000,
+  "actual": 7384
+}

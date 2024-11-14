@@ -1,0 +1,35 @@
+{
+    "metrics": [
+    {
+      "title": "New Purchase Orders Raised",
+      "value": "117",
+      "subtitle": ">3 Months: 31"
+    },
+    {
+      "title": "Work Orders Raised",
+      "value": "252",
+      "subtitle": ">1 Month: 40"
+    },
+    {
+      "title": "Planned Maint. Completed",
+      "value": "93%",
+      "subtitle": ""
+    },
+    {
+      "title": "Standard Operating Procedures",
+      "value": "1,132",
+      "subtitle": ""
+    },
+    {
+      "title": "Stock Outs",
+      "value": "476",
+      "subtitle": ""
+    },
+    {
+      "title": "Operator Induced Failures",
+      "value": "215",
+    "subtitle": ""
+      
+    }
+  ]
+}
