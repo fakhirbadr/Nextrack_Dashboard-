@@ -27,8 +27,8 @@ export default function FinancialPerformanceWidget({
   ...props
 }: FinancialPerformanceProps) {
   return (
-    <Dialog>
-      <DialogTrigger>
+    <Dialog  >
+      <DialogTrigger asChild>
         <Card
           className={cn(
             "flex flex-col bg-gradient-to-tr from-black/20 via-primary via-50% to-black/10 text-white",
@@ -55,13 +55,13 @@ export default function FinancialPerformanceWidget({
             </CardContent>
           </ScrollArea>
         </Card>
-      </DialogTrigger>
-      <DialogContent>
-        <DialogHeader>
-          <DialogTitle></DialogTitle>
-          <DialogDescription></DialogDescription>
-        </DialogHeader>
-      </DialogContent>
-    </Dialog>
+       </DialogTrigger>
+       <DialogContent>
+         <DialogHeader>
+           <DialogTitle></DialogTitle>
+           <DialogDescription></DialogDescription>
+         </DialogHeader>
+       </DialogContent>
+     </Dialog>
   );
 }

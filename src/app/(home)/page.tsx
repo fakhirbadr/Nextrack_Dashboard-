@@ -21,8 +21,7 @@ export default function Home() {
       <CapexWidget className="col-span-2 row-span-5 !bg-transparent lg:col-span-8 lg:row-span-4" />
 
       <OpexWidget className="col-span-2 row-span-5 !bg-transparent lg:col-span-8 lg:row-span-4" />
-
-      <FinancialPerformanceWidget className="col-span-2 row-span-4 lg:col-span-8 lg:row-span-4" />
+      <FinancialPerformanceWidget className="col-span-2 row-span-5  lg:col-span-8 lg:row-span-4"/>
       <TableData
         className="col-span-2 row-span-5 lg:col-span-11 lg:row-span-5"
         data={PerformanceData}
