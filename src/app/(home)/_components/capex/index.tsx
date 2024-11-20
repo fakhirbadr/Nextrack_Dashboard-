@@ -82,7 +82,7 @@ export default function CapexWidget({ className, ...props }: CapexChartProps) {
               wrapperClassName="text-xs"
               itemStyle={{ color: "#fff" }}
               formatter={(value) => [
-                `$${(value as number).toLocaleString()}`,
+                `${(value as number).toLocaleString()} pv`,
                 "Actual",
               ]}
               labelFormatter={(label) => `Month: ${label}`}

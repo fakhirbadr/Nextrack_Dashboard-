@@ -1,6 +1,6 @@
 "use client";
 
-import { Bar, BarChart, XAxis, CartesianGrid } from "recharts";
+import { Bar, BarChart, XAxis, CartesianGrid, LabelList } from "recharts";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 import {
@@ -19,9 +19,9 @@ const chartConfig = {
   },
 } satisfies ChartConfig;
 
-// eslint-disable-next-line @typescript-eslint/no-empty-object-type
 interface FinancialImpactWidgetProps
   extends React.HTMLAttributes<HTMLDivElement> {}
+
 export default function FinancialImpactWidget({
   className,
   ...props
@@ -61,7 +61,15 @@ export default function FinancialImpactWidget({
               className="text-primary"
               maxBarSize={36}
               radius={8}
-            />
+            >
+              <LabelList
+                dataKey="previousCount"
+                position="top"
+                fill="black"
+                fontSize={17}
+                offset={5} // Adjust offset as needed
+              />
+            </Bar>
           </BarChart>
         </ChartContainer>
       </CardContent>

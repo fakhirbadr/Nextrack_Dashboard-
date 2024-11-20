@@ -21,11 +21,11 @@ export default function Home() {
       <CapexWidget className="col-span-2 row-span-5 !bg-transparent lg:col-span-8 lg:row-span-4" />
 
       <OpexWidget className="col-span-2 row-span-5 !bg-transparent lg:col-span-8 lg:row-span-4" />
-      <FinancialPerformanceWidget className="col-span-2 row-span-5  lg:col-span-8 lg:row-span-4"/>
+      <FinancialPerformanceWidget className="col-span-2 row-span-5 lg:col-span-8 lg:row-span-4" />
       <TableData
         className="col-span-2 row-span-5 lg:col-span-11 lg:row-span-5"
         data={PerformanceData}
-        title="Equipment Performance Avg."
+        title="Suivi des Défaillances et Réparations"
       />
       <MMSControlSystem className="col-span-2 row-span-5 lg:col-span-5 lg:row-span-8" />
       <WarrantyClaimsWidget className="col-span-2 row-span-5 lg:col-span-4 lg:row-span-4" />
@@ -37,7 +37,7 @@ export default function Home() {
       <TableData
         className="col-span-2 row-span-3 lg:row-span-5 lg:[grid-column:span_12]"
         data={LaborData}
-        title="Labor Data"
+        title="Indicateurs Clés de Performance"
       />
       <Probability className="col-span-2 row-span-3 lg:col-span-4 lg:row-span-3" />
       <Information className="col-span-2 row-span-4 lg:col-span-8 lg:row-span-3" />

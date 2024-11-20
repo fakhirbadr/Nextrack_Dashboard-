@@ -1,82 +1,50 @@
- [
-    {
-      "department": "Electrical",
-      "normalHours": "1,918",
-      "overtimeHours": "2,100",
-      "sickDaysLost": "12",
-      "onPayroll": "8",
-      "graduates": "15",
-      "resignations": "12",
-      "newEmployees": "19"
-    },
-    {
-      "department": "Mechanical",
-      "normalHours": "2,211",
-      "overtimeHours": "2,403",
-      "sickDaysLost": "19",
-      "onPayroll": "0",
-      "graduates": "17",
-      "resignations": "12",
-      "newEmployees": "1"
-    },
-    {
-      "department": "Light Vehicle Maint.",
-      "normalHours": "2,214",
-      "overtimeHours": "2,085",
-      "sickDaysLost": "0",
-      "onPayroll": "18",
-      "graduates": "3",
-      "resignations": "1",
-      "newEmployees": "15"
-    },
-    {
-      "department": "Welding",
-      "normalHours": "2,876",
-      "overtimeHours": "2,069",
-      "sickDaysLost": "3",
-      "onPayroll": "19",
-      "graduates": "8",
-      "resignations": "5",
-      "newEmployees": "7"
-    },
-    {
-      "department": "Tire Management",
-      "normalHours": "507",
-      "overtimeHours": "1,899",
-      "sickDaysLost": "7",
-      "onPayroll": "17",
-      "graduates": "19",
-      "resignations": "15",
-      "newEmployees": "19"
-    },
-    {
-      "department": "Project Overhauls",
-      "normalHours": "1,275",
-      "overtimeHours": "2,945",
-      "sickDaysLost": "15",
-      "onPayroll": "6",
-      "graduates": "8",
-      "resignations": "11",
-      "newEmployees": "17"
-    },
-    {
-      "department": "Project Overhauls",
-      "normalHours": "1,275",
-      "overtimeHours": "2,945",
-      "sickDaysLost": "15",
-      "onPayroll": "6",
-      "graduates": "8",
-      "resignations": "11",
-      "newEmployees": "17"
-    },
-    {
-      "department": "Project Overhauls",
-      "normalHours": "1,275",
-      "overtimeHours": "2,945",
-      "sickDaysLost": "15",
-      "onPayroll": "6",
-      "graduates": "8",
-      "resignations": "11",
-      "newEmployees": "17"
-    }
-  ]
+[
+  {
+    "Indicateur de Performance (KPI)": "Taux de Panne Global",
+    "Description": "% de réfrigérateurs en panne sur l'ensemble du parc.",
+    "Unité de Mesure": "Pourcentage (%)",
+    "Seuil/Objectif": "< 10%",
+    "Valeur Actuelle": "8%",
+    "Fréquence de Suivi": "Mensuel"
+  },
+  {
+    "Indicateur de Performance (KPI)": "Disponibilité des Équipements",
+    "Description": "% de temps où les réfrigérateurs fonctionnent normalement.",
+    "Unité de Mesure": "Pourcentage (%)",
+    "Seuil/Objectif": "> 95%",
+    "Valeur Actuelle": "96%",
+    "Fréquence de Suivi": "Mensuel"
+  },
+  {
+    "Indicateur de Performance (KPI)": "Temps Moyen de Réparation (MTTR)",
+    "Description": "Temps moyen pour réparer les réfrigérateurs.",
+    "Unité de Mesure": "Heures (h)",
+    "Seuil/Objectif": "< 8h",
+    "Valeur Actuelle": "6h",
+    "Fréquence de Suivi": "Mensuel"
+  },
+  {
+    "Indicateur de Performance (KPI)": "Temps d'Indisponibilité (DTI)",
+    "Description": "Temps total pendant lequel les réfrigérateurs sont hors service.",
+    "Unité de Mesure": "Heures (h)",
+    "Seuil/Objectif": "< 24h",
+    "Valeur Actuelle": "15h",
+    "Fréquence de Suivi": "Mensuel"
+  },
+  {
+    "Indicateur de Performance (KPI)": "Réparations à 1ère Intervention",
+    "Description": "% de pannes réparées dès la première intervention.",
+    "Unité de Mesure": "Pourcentage (%)",
+    "Seuil/Objectif": "> 80%",
+    "Valeur Actuelle": "85%",
+    "Fréquence de Suivi": "Trimestriel"
+  },
+  {
+    "Indicateur de Performance (KPI)": "Coût de Maintenance par Unité",
+    "Description": "Coût moyen de maintenance pour chaque réfrigérateur.",
+    "Unité de Mesure": "Dirhams (MAD)",
+    "Seuil/Objectif": "< 200 MAD",
+    "Valeur Actuelle": "180 MAD",
+    "Fréquence de Suivi": "Trimestriel"
+  }
+]

@@ -1,35 +1,34 @@
 {
-    "metrics": [
+  "metrics": [
     {
-      "title": "New Purchase Orders Raised",
-      "value": "117",
-      "subtitle": ">3 Months: 31"
+      "title": "Chagement de compresseur",
+      "value": "2,4 %",
+      "subtitle": ">1 Months: 31"
     },
     {
-      "title": "Work Orders Raised",
-      "value": "252",
+      "title": "Chagement evaporateur",
+      "value": "4,7 %",
       "subtitle": ">1 Month: 40"
     },
     {
-      "title": "Planned Maint. Completed",
-      "value": "93%",
-      "subtitle": ""
+      "title": "Remplissage du gaz frigorigène",
+      "value": "33 %",
+      "subtitle": ">1 Month: 127"
     },
     {
-      "title": "Standard Operating Procedures",
-      "value": "1,132",
-      "subtitle": ""
+      "title": "Dégivrage",
+      "value": "52 %",
+      "subtitle": ">1 Month: 213"
     },
     {
-      "title": "Stock Outs",
-      "value": "476",
-      "subtitle": ""
+      "title": "Changement thermostat",
+      "value": "17 %",
+      "subtitle": ">1 Month: 82"
     },
     {
-      "title": "Operator Induced Failures",
-      "value": "215",
-    "subtitle": ""
-      
+      "title": "Installation électrique",
+      "value": "12 %",
+      "subtitle": ">1 Month: 26"
     }
   ]
 }

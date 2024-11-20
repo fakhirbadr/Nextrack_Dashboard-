@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 import { Card } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
-import { Fuel } from "lucide-react";
+import { Hourglass } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 // eslint-disable-next-line @typescript-eslint/no-empty-object-type
@@ -25,20 +25,29 @@ export default function FuelDeviationWidget({
       className={cn("relative flex flex-col justify-center", className)}
       {...props}
     >
-      <Fuel className="absolute right-6 top-6 text-yellow-600" size={28} />
+      <Hourglass className="absolute right-6 top-6 text-yellow-600" size={20} />
       <div className="mb-2 flex items-start justify-between">
         <div>
-          <span className="text-3xl font-bold">{value.toFixed(2)}%</span>
+          <span className="text-3xl font-bold">43 MIN</span>
         </div>
       </div>
 
       <div className="space-y-4">
-        <div className="text-base">Fuel Normal Sample Deviation</div>
+        <div className="text-base">Temps Moyen de Réparation (MTTR)</div>
 
         <div className="flex justify-end">
-          <span className="text-xs text-gray-400">100%</span>
+          <span className="text-xs text-gray-400">
+            Le MTTR mesure le temps moyen nécessaire pour réparer un équipement
+            ou une machine après une panne{" "}
+            <label
+              className="text-s w-fit bg-gradient-to-r from-primary to-white/80 font-bold text-transparent [-webkit-background-clip:text]"
+              htmlFor=""
+            >
+              Target : 45 min
+            </label>
+          </span>
         </div>
-        <Progress value={value} />
+        {/* <Progress value={value} /> */}
       </div>
     </Card>
   );

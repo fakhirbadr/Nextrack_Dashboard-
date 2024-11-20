@@ -47,8 +47,8 @@ export default function WarrantyClaimsWidget({
   return (
     <Card className={cn("flex flex-col", className)} {...props}>
       <div className="flex h-1 flex-1 items-center justify-between gap-4 py-0">
-        <span className="w-min bg-gradient-to-r from-primary to-white/80 text-lg font-semibold text-transparent [-webkit-background-clip:text]">
-          Warranty Claims
+        <span className="w-min bg-gradient-to-r from-primary to-white/80 text-base font-semibold text-transparent [-webkit-background-clip:text]">
+          <span className="text-nowrap">Répartition des</span> Équipements
         </span>
         <div className="relative flex h-full w-1 flex-1 shrink-0 justify-center">
           <ChartContainer

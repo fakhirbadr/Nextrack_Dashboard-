@@ -65,7 +65,7 @@ export default function OpexWidget({ className, ...props }: CapexChartProps) {
               axisLine={false}
               tick={{ fill: "#aaaaaa" }}
               tickFormatter={(value) =>
-                value === 0 ? "" : `${Math.round(value / 1000000)}M`
+                value === 0 ? "" : `${Math.round(value / 1000)}k`
               }
               className="text-xs md:text-sm"
             />
@@ -79,7 +79,7 @@ export default function OpexWidget({ className, ...props }: CapexChartProps) {
               wrapperClassName="text-xs"
               itemStyle={{ color: "#fff" }}
               formatter={(value) => [
-                `$${(value as number).toLocaleString()}`,
+                `${(value as number).toLocaleString()} pv`,
                 "Actual",
               ]}
               labelFormatter={(label) => `Month: ${label}`}

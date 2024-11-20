@@ -1,11 +1,10 @@
 {
-    "data": [
-        { "range": "< 1K", "count": 3, "previousCount": 2 },
-        { "range": "1K-5K", "count": 2, "previousCount": 3 },
-        { "range": "5K-20K", "count": 2, "previousCount": 1 },
-        { "range": "20K-50K", "count": 4, "previousCount": 3 },
-        { "range": "50K-100K", "count": 2, "previousCount": 2 },
-        { "range": ">100K", "count": 3, "previousCount": 1 }
-      ],
-      "title": "Financial Impact"
+  "data": [
+    { "range": "4M MAD", "count": 5, "previousCount": "Total" },
+    { "range": "2M MAD", "count": 4, "previousCount": "Covid" },
+    { "range": "1M MAD", "count": 3, "previousCount": "Pni" },
+    { "range": "800K MAD", "count": 2, "previousCount": "Insuline" },
+    { "range": "200K MAD", "count": 2, "previousCount": "Autres" }
+  ],
+  "title": "Financial Impact"
 }

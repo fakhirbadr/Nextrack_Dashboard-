@@ -1,5 +1,5 @@
 [
-    { "name": "In Progress", "value": 19, "fill": "#3B82F6" },
-    { "name": "Closed", "value": 3, "fill": "#F97316" },
-    { "name": "Outstanding", "value": 12, "fill": "#2563EB" }
-  ]
+  { "name": "Réfrigérateur (%)", "value": 79, "fill": "#3B82F6" },
+  { "name": "Armoires frigorifiques (%)", "value": 12, "fill": "#F97316" },
+  { "name": "Chambres froides (%)", "value": 9, "fill": "#2563EB" }
+]

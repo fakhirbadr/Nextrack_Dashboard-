@@ -14,7 +14,7 @@ export default function MMSControlSystem({
     <Card className={cn("flex flex-col space-y-4", className)} {...props}>
       <CardHeader className="px-0 py-0 text-sm md:text-lg">
         <CardTitle className="w-fit bg-gradient-to-r from-primary to-white/80 text-transparent [-webkit-background-clip:text]">
-          MMS Control Systems
+          État des Interventions Correctives
         </CardTitle>
       </CardHeader>
 

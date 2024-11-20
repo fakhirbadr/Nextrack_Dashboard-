@@ -2,8 +2,9 @@
 import React, { useEffect } from "react";
 import { Card } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
-import { Droplet } from "lucide-react";
+import { Syringe } from "lucide-react";
 import { cn } from "@/lib/utils";
+import image from "../../../../../public/"
 
 // eslint-disable-next-line @typescript-eslint/no-empty-object-type
 interface LubricantDeviationWidgetProps
@@ -15,7 +16,7 @@ export default function LubeDeviationWidget({
   const [value, setValue] = React.useState(70);
   useEffect(() => {
     const interval = setInterval(() => {
-      setValue((prev) => (prev + Math.random() * 20 - 10) % 101);
+      setValue((prev) => prev + 0);
     }, 3_000);
 
     return () => clearInterval(interval);
@@ -25,20 +26,26 @@ export default function LubeDeviationWidget({
       className={cn("relative flex flex-col justify-center", className)}
       {...props}
     >
-      <Droplet className="absolute right-6 top-6 text-blue-500" size={32} />
+      <Syringe className="absolute right-6 top-6 text-blue-500" size={32} />
       <div className="mb-2 flex items-start justify-between">
         <div>
-          <span className="text-3xl font-bold">{value.toFixed(2)}%</span>
+          <span className="text-3xl font-bold">13M 600K</span>
         </div>
       </div>
 
       <div className="space-y-4">
-        <div className="text-base">Lube Normal Sample Deviation</div>
+        <div className="text-base">
+          Le nombre total de vaccins préservés (COVID, PNI, insuline)
+        </div>
 
         <div className="flex justify-end">
-          <span className="text-xs text-gray-400">100%</span>
-        </div>
-        <Progress value={value} />
+  <span className="text-xs text-gray-400">
+    <span>Objective: 15M</span>
+    <span className="mx-4">==></span>
+    <span>90.67%</span>
+  </span>
+</div>
+        <Progress value={90.67} />
       </div>
     </Card>
   );

@@ -1,14 +1,26 @@
 [
-    {
-      "value": "946",
-      "label": "Outstanding Watchlist Events"
-    },
-    {
-      "value": "99",
-      "label": "Number of RCAs Signed Off"
-    },
-    {
-      "value": "290",
-      "label": "Capitalized Projects In Progress"
-    }
-  ]
+  {
+    "value": "16°C a 32°C",
+    "label": "N"
+  },
+  {
+    "value": "10°C a 32°C",
+    "label": "SN"
+  },
+  {
+    "value": "10°C a 38°C",
+    "label": "SN-ST"
+  },
+  {
+    "value": "10°C a 43°C",
+    "label": "SN-T"
+  },
+  {
+    "value": "16°C a 43°C",
+    "label": "ST"
+  },
+  {
+    "value": "16°C a 43°C",
+    "label": "T"
+  }
+]

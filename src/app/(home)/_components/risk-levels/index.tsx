@@ -27,7 +27,7 @@ const chartConfig = {
   },
 } satisfies ChartConfig;
 
-const chartData = [{ month: "january", desktop: 1260, mobile: 570 }];
+const chartData = [{ month: "january", desktop: 200, mobile: 1260 }];
 
 function RiskLevel({
   className,
@@ -38,7 +38,7 @@ function RiskLevel({
     <Card className={cn("flex flex-col gap-2 p-2", className)} {...props}>
       <CardHeader className="p-1 text-lg">
         <CardTitle className="w-fit bg-gradient-to-r from-primary to-white/80 text-transparent [-webkit-background-clip:text]">
-          Risk Levels
+          Indicateur de Disponibilité
         </CardTitle>
       </CardHeader>
       <CardContent className="flex flex-1 items-center justify-center p-0">
@@ -75,7 +75,7 @@ function RiskLevel({
                             y={(viewBox.cy || 0) + 4}
                             className="fill-muted-foreground"
                           >
-                            Visitors
+                            Equipments
                           </tspan>
                         </text>
                       );
