@@ -19,8 +19,7 @@ const chartConfig = {
   },
 } satisfies ChartConfig;
 
-interface FinancialImpactWidgetProps
-  extends React.HTMLAttributes<HTMLDivElement> {}
+type FinancialImpactWidgetProps = React.HTMLAttributes<HTMLDivElement>;
 
 export default function FinancialImpactWidget({
   className,

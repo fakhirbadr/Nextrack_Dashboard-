@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Emerging from "./_components/emerging";
 import LaborData from "../data/labor.json";
 import PerformanceData from "../data/performance.json";
@@ -5,15 +6,19 @@ import CapexWidget from "./_components/capex";
 import OpexWidget from "./_components/opex";
 import FinancialPerformanceWidget from "./financial-performance";
 import MMSControlSystem from "./_components/mms-control-system";
-import WarrantyClaimsWidget from "./_components/warranty-claims";
-import LubeDeviationWidget from "./_components/lube-deviation";
-import FuelDeviationWidget from "./_components/fuel-deviation copy";
 import TableData from "../components/table";
-import ReliabilityWidget from "./_components/reliability-activity";
 import Probability from "./_components/probability";
 import FinancialImpactWidget from "./_components/financial-impact";
 import Information from "./_components/information";
 import RiskLevel from "./_components/risk-levels";
+import { Card } from "@/components/ui/card";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 
 export default function Home() {
   return (
@@ -28,10 +33,29 @@ export default function Home() {
         title="Suivi des Défaillances et Réparations"
       />
       <MMSControlSystem className="col-span-2 row-span-5 lg:col-span-5 lg:row-span-8" />
-      <WarrantyClaimsWidget className="col-span-2 row-span-5 lg:col-span-4 lg:row-span-4" />
-      <LubeDeviationWidget className="col-span-2 row-span-3 lg:col-span-4 lg:row-span-4" />
-      <ReliabilityWidget className="col-span-2 row-span-5 lg:col-span-4 lg:row-span-4" />
-      <FuelDeviationWidget className="col-span-2 row-span-3 lg:col-span-4 lg:row-span-4" />
+      <Card className="col-span-8 row-span-8 overflow-hidden">
+        <Carousel className="h-full w-full">
+          <CarouselPrevious className="left-0 z-10" />
+          <CarouselContent className="h-full w-full">
+            <CarouselItem className="min-h-full w-full">
+              <img
+                src="/images/placeholder.svg"
+                alt="hero"
+                className="h-full w-full object-cover"
+              />
+            </CarouselItem>
+            <CarouselItem className="min-h-full w-full">
+              <img
+                src="/images/placeholder.svg"
+                alt="hero"
+                className="h-full w-full object-cover"
+              />
+            </CarouselItem>
+          </CarouselContent>
+
+          <CarouselNext className="right-0 z-10" />
+        </Carousel>
+      </Card>
       <RiskLevel className="col-span-2 row-span-3 lg:col-span-4 lg:row-span-3" />
       <FinancialImpactWidget className="col-span-2 row-span-2 lg:col-span-7 lg:row-span-3" />
       <TableData

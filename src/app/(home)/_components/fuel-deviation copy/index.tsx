@@ -1,7 +1,6 @@
 "use client";
 import React, { useEffect } from "react";
 import { Card } from "@/components/ui/card";
-import { Progress } from "@/components/ui/progress";
 import { Hourglass } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -12,7 +11,7 @@ export default function FuelDeviationWidget({
   className,
   ...props
 }: LubricantDeviationWidgetProps) {
-  const [value, setValue] = React.useState(50);
+  const [, setValue] = React.useState(50);
   useEffect(() => {
     const interval = setInterval(() => {
       setValue((prev) => (prev + Math.random() * 20 - 10) % 101);

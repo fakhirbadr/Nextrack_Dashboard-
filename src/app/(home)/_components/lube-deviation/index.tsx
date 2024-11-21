@@ -4,7 +4,6 @@ import { Card } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { Syringe } from "lucide-react";
 import { cn } from "@/lib/utils";
-import image from "../../../../../public/"
 
 // eslint-disable-next-line @typescript-eslint/no-empty-object-type
 interface LubricantDeviationWidgetProps
@@ -13,7 +12,7 @@ export default function LubeDeviationWidget({
   className,
   ...props
 }: LubricantDeviationWidgetProps) {
-  const [value, setValue] = React.useState(70);
+  const [, setValue] = React.useState(70);
   useEffect(() => {
     const interval = setInterval(() => {
       setValue((prev) => prev + 0);
@@ -39,12 +38,12 @@ export default function LubeDeviationWidget({
         </div>
 
         <div className="flex justify-end">
-  <span className="text-xs text-gray-400">
-    <span>Objective: 15M</span>
-    <span className="mx-4">==></span>
-    <span>90.67%</span>
-  </span>
-</div>
+          <span className="text-xs text-gray-400">
+            <span>Objective: 15M</span>
+            <span className="mx-4">{"==>"}</span>
+            <span>90.67%</span>
+          </span>
+        </div>
         <Progress value={90.67} />
       </div>
     </Card>
