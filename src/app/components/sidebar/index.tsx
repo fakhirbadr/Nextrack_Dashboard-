@@ -7,6 +7,7 @@ import "swiper/css";
 import { Swiper, SwiperClass, SwiperSlide } from "swiper/react";
 import { Keyboard, Mousewheel } from "swiper/modules";
 import Image from "next/image";
+import { ArrowBigLeftDash } from "lucide-react";
 
 // eslint-disable-next-line @typescript-eslint/no-empty-object-type
 interface SidebarProps extends React.HTMLAttributes<HTMLDivElement> {}
@@ -18,7 +19,7 @@ export default function Sidebar({ className, ...props }: SidebarProps) {
   return (
     <aside
       className={cn(
-        "w-[7rem] shrink-0 overflow-auto pr-3 transition-[width] duration-300",
+        "relative w-[7rem] shrink-0 overflow-auto pr-3 transition-[width] duration-300",
         className,
       )}
       {...props}
@@ -108,6 +109,14 @@ export default function Sidebar({ className, ...props }: SidebarProps) {
         >
           maintenance 4.0
         </div>
+      </div>
+      <div className="fixed bottom-[2rem] left-[2.5rem] w-full">
+        <Link
+          href="https://portail.nextrack.io"
+          className="size-5 p-3 text-primary"
+        >
+          <ArrowBigLeftDash size={40} />
+        </Link>
       </div>
     </aside>
   );
